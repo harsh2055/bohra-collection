@@ -1,0 +1,26 @@
+{
+  "name": "bohra-collection",
+  "version": "1.0.0",
+  "description": "Bohra Collection - Premium Islamic Clothing E-Commerce Website",
+  "scripts": {
+    "install:all": "cd client && npm install && cd ../server && npm install",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build": "cd client && npm run build",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "keywords": [
+    "bohra",
+    "islamic",
+    "clothing",
+    "ecommerce",
+    "react",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "multer": "^2.1.1",
+    "multer-storage-cloudinary": "^4.0.0"
+  }
+}
